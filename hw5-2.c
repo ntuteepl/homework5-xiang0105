@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <math.h>
 
@@ -15,8 +14,9 @@ int main()
         total *= 0.9;
     }
     
-    
     total = round(total * 100) / 100; 
+    
+    
     printf("%.1f" , total);
     
 }
