@@ -15,9 +15,8 @@ int main()
         total *= 0.9;
     }
     
-    if(total / 0.01 >= 5){
-        total += 0.1;
-    }
+    
+    total = round(total * 100) / 100; 
     printf("%.1f" , total);
     
 }
