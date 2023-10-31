@@ -8,7 +8,7 @@ int main()
     scanf("%f %f" , &h , &wage);
     
     if(h <= 60){
-        total *= h;
+        total = wage * h;
     }else if(h <= 120 && h > 60){
         total = (wage * 60) + (wage * 1.33 * (h - 60));
     }else{
