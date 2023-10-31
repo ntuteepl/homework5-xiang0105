@@ -3,7 +3,9 @@
 
 int main()
 {
-    float inp , total;
+    float inp;
+    
+    double total;
     
     scanf("%f" , &inp);
     total = inp * 0.9;
