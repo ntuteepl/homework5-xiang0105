@@ -14,7 +14,7 @@ int main()
     
     
     if(deg > 180){
-        printf("%f" , deg - 180);
+        printf("%f" , deg - 360);
     }else{
         printf("%.3f" , deg);
     }
